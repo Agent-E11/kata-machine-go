@@ -1,3 +1,4 @@
+// TODO: Implement Go tests
 import maze_solver from "@code/MazeSolver";
 
 test("maze solver", function () {
