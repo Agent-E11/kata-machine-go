@@ -1,4 +1,3 @@
-// TODO: Implement Go tests
 import binary_fn from "@code/BinarySearchList"
 
 test("binary search array", function() {
