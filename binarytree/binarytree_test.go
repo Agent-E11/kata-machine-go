@@ -43,3 +43,13 @@ func TestPreOrderSearch(t *testing.T) {
 		t.Fatalf("expected PreOrderSearch(tree.Tree1) to be %v, got %v", expect, traversed)
 	}
 }
+
+func TestCompare(t *testing.T) {
+	if !bt.Compare(&tree.Tree1, &tree.Tree1) {
+		t.Fatalf("expected tree.Tree1 to equal tree.Tree1")
+	}
+
+	if bt.Compare(&tree.Tree1, &tree.Tree2) {
+		t.Fatalf("expected tree.Tree1 to not equal tree.Tree2")
+	}
+}

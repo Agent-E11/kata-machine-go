@@ -1,4 +1,3 @@
-// TODO: Implement Go tests
 import compare from "@code/CompareBinaryTrees";
 import { tree, tree2 } from "./tree";
 

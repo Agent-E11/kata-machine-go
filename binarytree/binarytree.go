@@ -19,3 +19,7 @@ func PostOrderSearch(head tree.BinaryNode[int]) []int {
 func PreOrderSearch(head tree.BinaryNode[int]) []int {
 	return []int{}
 }
+
+func Compare(a *tree.BinaryNode[int], b *tree.BinaryNode[int]) bool {
+	return false
+}
