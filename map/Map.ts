@@ -1,4 +1,5 @@
 // TODO: Implement Go tests
+// FIXME: package `map` is not allowed
 import MyMap from "@code/Map";
 
 test("Map", function() {
