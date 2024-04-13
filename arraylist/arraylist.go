@@ -1,11 +1,15 @@
 package arraylist
 
 type ArrayList[T comparable] struct {
-	Length int
+	length int
 }
 
 func New[T comparable](capacity int) ArrayList[T] {
 	return ArrayList[T]{} // TODO: Remove this
+}
+
+func (al ArrayList[T]) Length() int {
+	return 0
 }
 
 func (al *ArrayList[T]) Prepend(item T) {}
