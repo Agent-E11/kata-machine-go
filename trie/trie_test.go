@@ -7,6 +7,7 @@ import (
 	"github.com/agent-e11/kata-machine-go/trie"
 )
 
+// TODO: Add a couple more test cases
 func TestTrie(t *testing.T) {
 	tr := trie.New()
 

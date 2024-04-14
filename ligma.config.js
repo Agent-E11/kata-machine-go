@@ -21,7 +21,7 @@ module.exports = {
         "MazeSolver",
         "MergeSort",
         "MinHeap",
-        "PrimsList", // TODO: Might want to delete this
+        "PrimsList",
         "Queue",
         "QuickSort",
         "RingBuffer",
