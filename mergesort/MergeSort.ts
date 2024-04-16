@@ -1,5 +1,3 @@
-// TODO: Implement Go tests
-// FIXME: Can't find MergeSort
 import merge_sort from "@code/MergeSort";
 
 test("merge-sort", function () {

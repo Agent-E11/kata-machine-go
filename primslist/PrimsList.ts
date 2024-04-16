@@ -1,4 +1,3 @@
-// TODO: Implement Go tests
 import prims from "@code/PrimsAlgorithm";
 import { list1 } from "./graph";
 

@@ -1,5 +1,3 @@
-// TODO: Implement Go tests
-// FIXME: I can't find InsertionSort
 import insertion_sort from "@code/InsertionSort";
 
 test("insertion-sort", function () {

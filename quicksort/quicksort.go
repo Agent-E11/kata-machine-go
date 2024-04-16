@@ -1,3 +1,5 @@
 package quicksort
 
-func QuickSort(arr *[]int) {}
+import "cmp"
+
+func Sort[T cmp.Ordered](arr *[]T) {}
