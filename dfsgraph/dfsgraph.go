@@ -1,4 +1,4 @@
-package dfsgraphlist
+package dfsgraph
 
 import (
 	katagraph "github.com/agent-e11/kata-machine-go/graph"
@@ -9,6 +9,6 @@ import (
 // [Depth First Search]
 //
 // [Depth First Search]: https://en.wikipedia.org/wiki/Depth-first_search
-func DFS(graph katagraph.WeightedAdjacencyList, source int, needle int) []int {
+func DFSList(graph katagraph.WeightedAdjacencyList, source int, needle int) []int {
 	return []int{}
 }
