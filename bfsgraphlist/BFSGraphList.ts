@@ -1,5 +1,3 @@
-// TODO: Implement Go tests
-// FIXME: I cannot find a BFSGraphList
 import bfs from "@code/BFSGraphList";
 import { list2 } from "./graph";
 
