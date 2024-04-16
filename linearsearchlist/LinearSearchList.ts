@@ -1,4 +1,3 @@
-// TODO: Implement Go tests
 import linear_fn from "@code/LinearSearchList"
 
 test("linear search array", function() {
