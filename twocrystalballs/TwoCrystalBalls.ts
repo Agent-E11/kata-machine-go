@@ -1,4 +1,3 @@
-// TODO: Implement Go tests
 import two_crystal_balls from "@code/TwoCrystalBalls";
 
 test("two crystal balls", function () {

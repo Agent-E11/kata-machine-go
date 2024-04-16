@@ -1,4 +1,3 @@
-// TODO: Implement Go tests
 import dfs from "@code/DFSOnBST";
 import { tree } from "./tree";
 

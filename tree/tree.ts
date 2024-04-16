@@ -1,4 +1,3 @@
-// TODO: Implement Go tests
 export const tree: BinaryNode<number> = {
     value: 20,
     right: {

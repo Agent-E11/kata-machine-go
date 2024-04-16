@@ -1,4 +1,3 @@
-// TODO: Implement Go tests
 import LinkedList from "@code/DoublyLinkedList";
 import { test_list } from "./ListTest";
 

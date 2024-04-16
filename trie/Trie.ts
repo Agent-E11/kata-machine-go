@@ -1,4 +1,3 @@
-// TODO: Implement Go tests
 import Trie from "@code/Trie";
 
 test("Trie", function() {

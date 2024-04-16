@@ -1,4 +1,3 @@
-// TODO: Implement Go tests
 import SinglyLinkedList from "@code/SinglyLinkedList";
 import { test_list } from "./ListTest";
 

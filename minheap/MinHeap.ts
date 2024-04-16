@@ -1,4 +1,3 @@
-// TODO: Implement Go tests
 import MinHeap from "@code/MinHeap";
 
 test("min heap", function () {
