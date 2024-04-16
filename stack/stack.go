@@ -1,5 +1,8 @@
 package stack
 
+// [Stack]
+//
+// [Stack]: https://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29
 type Stack[t any] struct {
 	length int
 }

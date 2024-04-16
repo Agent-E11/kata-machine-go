@@ -1,5 +1,8 @@
 package minheap
 
+// [Heap]
+//
+// [Heap]: https://en.wikipedia.org/wiki/Heap_%28data_structure%29
 type MinHeap struct {
 	length int
 }

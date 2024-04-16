@@ -1,10 +1,18 @@
 package graph
 
+// [Adjacency Matrix]
+//
+// [Adjacency Matrix]: https://en.wikipedia.org/wiki/Adjacency_matrix
 type WeightedAdjacencyMatrix = [][]int
+
 type GraphEdge struct {
 	To int
 	Weight int
 }
+
+// [Adjacency List]
+//
+// [Adjacency List]: https://en.wikipedia.org/wiki/Adjacency_list
 type WeightedAdjacencyList = [][]GraphEdge
 
 //    3-(1) -1- (4) -2- (5)

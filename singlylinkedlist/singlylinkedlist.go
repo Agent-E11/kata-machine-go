@@ -1,5 +1,8 @@
 package singlylinkedlist
 
+// [Linked List]
+//
+// [Linked List]: https://en.wikipedia.org/wiki/Linked_list
 type SinglyLinkedList[T comparable] struct {
 	length int
 }

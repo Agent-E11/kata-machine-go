@@ -21,7 +21,7 @@ func TestBFS(t *testing.T) {
 }
 
 func TestInOrderSearch(t *testing.T) {
-	traversed := bt.InOrderSearch(tree.Tree1)
+	traversed := bt.InOrderTraverse(tree.Tree1)
 	expect := []int{5, 7, 10, 15, 20, 29, 30, 45, 50, 100}
 	if !slices.Equal(traversed, expect) {
 		t.Fatalf("expected InOrderSearch(tree.Tree1) to be %v, got %v", expect, traversed)
@@ -29,7 +29,7 @@ func TestInOrderSearch(t *testing.T) {
 }
 
 func TestPostOrderSearch(t *testing.T) {
-	traversed := bt.PostOrderSearch(tree.Tree1)
+	traversed := bt.PostOrderTraverse(tree.Tree1)
 	expect := []int{7, 5, 15, 10, 29, 45, 30, 100, 50, 20}
 	if !slices.Equal(traversed, expect) {
 		t.Fatalf("expected PostOrderSearch(tree.Tree1) to be %v, got %v", expect, traversed)
@@ -37,7 +37,7 @@ func TestPostOrderSearch(t *testing.T) {
 }
 
 func TestPreOrderSearch(t *testing.T) {
-	traversed := bt.PreOrderSearch(tree.Tree1)
+	traversed := bt.PreOrderTraverse(tree.Tree1)
 	expect := []int{20, 10, 5, 7, 15, 50, 30, 29, 45, 100}
 	if !slices.Equal(traversed, expect) {
 		t.Fatalf("expected PreOrderSearch(tree.Tree1) to be %v, got %v", expect, traversed)

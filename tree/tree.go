@@ -1,11 +1,19 @@
 package tree
 
+// [Binary Tree]
+//
+// [Binary Tree]: https://en.wikipedia.org/wiki/Binary_tree
 type BinaryNode[T comparable] struct {
 	Value T
 	Left *BinaryNode[T]
 	Right *BinaryNode[T]
 }
 
+// This tree is a Binary Search Tree
+//
+// [Binary Search Tree]
+//
+// [Binary Search Tree]: https://en.wikipedia.org/wiki/Binary_search_tree
 var Tree1 BinaryNode[int] = BinaryNode[int]{
     Value: 20,
     Right: &BinaryNode[int]{

@@ -1,5 +1,8 @@
 package doublylinkedlist
 
+// [Doubly Linked List]
+//
+// [Doubly Linked List]: https://en.wikipedia.org/wiki/Doubly_linked_list
 type DoublyLinkedList[T comparable] struct {
 	length int
 }

@@ -1,5 +1,8 @@
 package hashmap
 
+// [Hash Table]
+//
+// [Hash Table]: https://en.wikipedia.org/wiki/Hash_table
 type Map[K int | string, V any] struct {}
 
 func New[K int | string, V any]() Map[K, V] {

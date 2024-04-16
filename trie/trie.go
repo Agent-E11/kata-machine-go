@@ -1,5 +1,8 @@
 package trie
 
+// [Trie]
+//
+// [Trie]: https://en.wikipedia.org/wiki/Trie
 type Trie struct {}
 
 func New() Trie {

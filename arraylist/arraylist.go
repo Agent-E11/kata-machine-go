@@ -1,5 +1,8 @@
 package arraylist
 
+// [Dynamic Array]
+//
+// [Dynamic Array]: https://en.wikipedia.org/wiki/Dynamic_array
 type ArrayList[T comparable] struct {
 	length int
 }

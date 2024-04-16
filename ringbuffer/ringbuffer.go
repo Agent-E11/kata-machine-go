@@ -1,5 +1,8 @@
 package ringbuffer
 
+// [Circular Buffer]
+//
+// [Circular Buffer]: https://en.wikipedia.org/wiki/Circular_buffer
 type RingBuffer[T any] struct {
 	length int
 }

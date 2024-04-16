@@ -1,5 +1,8 @@
 package queue
 
+// [Queue]
+//
+// [Queue]: https://en.wikipedia.org/wiki/Queue_%28abstract_data_type%29
 type Queue[T any] struct {
 	length int
 }
