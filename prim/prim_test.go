@@ -1,15 +1,15 @@
-package primslist_test
+package prim_test
 
 import (
 	"slices"
 	"testing"
 
 	"github.com/agent-e11/kata-machine-go/graph"
-	"github.com/agent-e11/kata-machine-go/primslist"
+	"github.com/agent-e11/kata-machine-go/prim"
 )
 
 func TestPrimsList(t *testing.T) {
-	result := primslist.Prims(graph.List1)
+	result := prim.PrimList(graph.List1)
 	expect := graph.WeightedAdjacencyList{
         {
             { To: 2, Weight: 1 },

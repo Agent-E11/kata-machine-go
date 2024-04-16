@@ -1,4 +1,4 @@
-package dijkstralist
+package dijkstra
 
 import (
 	katagraph "github.com/agent-e11/kata-machine-go/graph"
