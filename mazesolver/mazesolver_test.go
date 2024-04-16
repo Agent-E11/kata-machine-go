@@ -38,7 +38,7 @@ func TestMazeSolver(t *testing.T) {
     // there is only one path through
 	path := mazesolver.Solve(
 		maze,
-		"x",
+		'x',
 		mazesolver.Point{ X: 1, Y: 5 },
 		mazesolver.Point{ X: 10, Y: 0 },
 	)

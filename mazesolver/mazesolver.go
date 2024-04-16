@@ -5,6 +5,6 @@ type Point struct {
 	Y int
 }
 
-func Solve(maze []string, wall string, start Point, end Point) []Point {
+func Solve(maze []string, wall rune, start Point, end Point) []Point {
 	return []Point{}
 }
