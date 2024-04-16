@@ -8,7 +8,7 @@ type RingBuffer[T any] struct {
 }
 
 func New[T any]() RingBuffer[T] {
-	return RingBuffer[T]{} // TODO: Remove this
+	return RingBuffer[T]{}
 }
 
 func (rb *RingBuffer[T]) Length() int {

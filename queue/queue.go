@@ -8,19 +8,19 @@ type Queue[T any] struct {
 }
 
 func New[T any]() Queue[T] {
-	return Queue[T]{} // TODO: Remove this
+	return Queue[T]{}
 }
 
 func (q *Queue[T]) Length() int {
-	return 0 // TODO: Remove this
+	return 0
 }
 
 func (q *Queue[T]) Enqueue(item T) {}
 
 func (q *Queue[T]) Dequeue() (value T, ok bool) {
-	return // TODO: Remove this
+	return
 }
 
 func (q *Queue[T]) Peek() (value T, ok bool) {
-	return // TODO: Remove this
+	return
 }

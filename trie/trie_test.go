@@ -7,7 +7,6 @@ import (
 	"github.com/agent-e11/kata-machine-go/trie"
 )
 
-// TODO: Add a couple more test cases
 func TestTrie(t *testing.T) {
 	tr := trie.New()
 
@@ -38,6 +37,17 @@ func TestTrie(t *testing.T) {
 	expect = []string{
         "foo",
         "foolish",
+	}
+
+	if !slices.Equal(words, expect) {
+		t.Fatalf("expected words to be %v, got %v", expect, words)
+	}
+
+	words = tr.Find("b")
+	slices.Sort(words)
+
+	expect = []string{
+		"bar",
 	}
 
 	if !slices.Equal(words, expect) {

@@ -8,7 +8,7 @@ type DoublyLinkedList[T comparable] struct {
 }
 
 func New[T comparable]() DoublyLinkedList[T] {
-	return DoublyLinkedList[T]{} // TODO: Remove this
+	return DoublyLinkedList[T]{}
 }
 
 func (dll DoublyLinkedList[T]) Length() int {

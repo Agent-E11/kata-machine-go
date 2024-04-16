@@ -8,7 +8,7 @@ type ArrayList[T comparable] struct {
 }
 
 func New[T comparable](capacity int) ArrayList[T] {
-	return ArrayList[T]{} // TODO: Remove this
+	return ArrayList[T]{}
 }
 
 func (al ArrayList[T]) Length() int {

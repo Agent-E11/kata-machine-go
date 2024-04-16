@@ -93,11 +93,11 @@ var List2 WeightedAdjacencyList = [][]GraphEdge{
 //  \    v       v        v
 //   1->(2)---7>(3)<1---(6)
 var Matrix2 WeightedAdjacencyMatrix = [][]int{
-    {0, 3, 1,  0, 0, 0, 0}, // 0
+    {0, 3, 1,  0, 0, 0, 0}, // Node 0
     {0, 0, 0,  0, 1, 0, 0},
 	{0, 0, 7,  0, 0, 0, 0}, // FIXME: I think that the 7 should be one over (index 3)
     {0, 0, 0,  0, 0, 0, 0},
     {0, 1, 0,  5, 0, 2, 0},
     {0, 0, 18, 0, 0, 0, 1},
-	{0, 0, 0,  1, 0, 0, 1}, // TODO: Is this node supposed to have a connection to itself?
+	{0, 0, 0,  1, 0, 0, 1}, // FIXME: This node shouldn't have a connection to itself
 }

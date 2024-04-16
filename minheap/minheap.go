@@ -8,7 +8,7 @@ type MinHeap struct {
 }
 
 func New() MinHeap {
-	return MinHeap{} // TODO: Remove this
+	return MinHeap{}
 }
 
 func (mh *MinHeap) Length() int {

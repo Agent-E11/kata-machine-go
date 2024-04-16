@@ -8,7 +8,7 @@ type SinglyLinkedList[T comparable] struct {
 }
 
 func New[T comparable]() SinglyLinkedList[T] {
-	return SinglyLinkedList[T]{} // TODO: Remove this
+	return SinglyLinkedList[T]{}
 }
 
 func (dll SinglyLinkedList[T]) Length() int {

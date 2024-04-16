@@ -6,7 +6,7 @@ package trie
 type Trie struct {}
 
 func New() Trie {
-	return Trie{} // TODO: Remove this
+	return Trie{}
 }
 
 func (t *Trie) Insert(item string) {}
