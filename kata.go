@@ -24,3 +24,8 @@ type GraphEdge struct {
 // [Adjacency List]: https://en.wikipedia.org/wiki/Adjacency_list
 type WeightedAdjacencyList = [][]GraphEdge
 
+type Point struct {
+	X int
+	Y int
+}
+
