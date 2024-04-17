@@ -1,5 +1,7 @@
 package kata
 
+// TODO: I think that the BinaryNode should be defined in binarytree
+
 // [Binary Tree]
 //
 // [Binary Tree]: https://en.wikipedia.org/wiki/Binary_tree
