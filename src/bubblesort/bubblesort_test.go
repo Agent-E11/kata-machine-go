@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/agent-e11/kata-machine-go/src/bubblesort"
-	"github.com/agent-e11/kata-machine-go/sorttest"
+	"github.com/agent-e11/kata-machine-go/tests/sorttest"
 )
 
 func TestBubbleSort(t *testing.T) {

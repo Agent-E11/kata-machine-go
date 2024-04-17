@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/agent-e11/kata-machine-go/src/singlylinkedlist"
-	"github.com/agent-e11/kata-machine-go/listtest"
+	"github.com/agent-e11/kata-machine-go/tests/listtest"
 )
 
 func TestDoublyLinkedList(t *testing.T) {

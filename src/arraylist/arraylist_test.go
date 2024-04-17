@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/agent-e11/kata-machine-go/src/arraylist"
-	"github.com/agent-e11/kata-machine-go/listtest"
+	"github.com/agent-e11/kata-machine-go/tests/listtest"
 )
 
 func TestArrayList(t *testing.T) {

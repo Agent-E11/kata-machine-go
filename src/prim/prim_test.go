@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/agent-e11/kata-machine-go"
-	"github.com/agent-e11/kata-machine-go/graph"
+	"github.com/agent-e11/kata-machine-go/tests"
 	"github.com/agent-e11/kata-machine-go/src/prim"
 )
 
 func TestPrimsList(t *testing.T) {
-	result := prim.PrimList(graph.List1)
+	result := prim.PrimList(tests.GraphList1)
 	expect := kata.WeightedAdjacencyList{
         {
             { To: 2, Weight: 1 },

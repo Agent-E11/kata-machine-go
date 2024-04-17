@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/agent-e11/kata-machine-go/src/insertionsort"
-	"github.com/agent-e11/kata-machine-go/sorttest"
+	"github.com/agent-e11/kata-machine-go/tests/sorttest"
 )
 
 func TestInsertionSort(t *testing.T) {
