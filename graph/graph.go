@@ -22,7 +22,8 @@ var List1 kata.WeightedAdjacencyList = [][]kata.GraphEdge{
 	{
 		{ To: 1, Weight: 4 },
 		{ To: 3, Weight: 7 },
-		{ To: 0, Weight: 1 }, // FIXME: Node 2 should have a connection to node 5 with a weight of 18
+		{ To: 0, Weight: 1 },
+		{ To: 5, Weight: 18 },
 	},
 	{
 		{ To: 2, Weight: 7 },
@@ -78,15 +79,15 @@ var List2 kata.WeightedAdjacencyList = [][]kata.GraphEdge{
 
 //   3->(1)<1-1>(4)---2>(5)
 //  /      /-----|------/|
-// (0)   18      5        1
-//  \    v       v        v
+// (0)   18      5       1
+//  \    v       v       v
 //   1->(2)---7>(3)<1---(6)
 var Matrix2 kata.WeightedAdjacencyMatrix = [][]int{
     {0, 3, 1,  0, 0, 0, 0}, // Node 0
     {0, 0, 0,  0, 1, 0, 0},
-	{0, 0, 7,  0, 0, 0, 0}, // FIXME: I think that the 7 should be one over (index 3)
+	{0, 0, 0,  7, 0, 0, 0},
     {0, 0, 0,  0, 0, 0, 0},
     {0, 1, 0,  5, 0, 2, 0},
     {0, 0, 18, 0, 0, 0, 1},
-	{0, 0, 0,  1, 0, 0, 1}, // FIXME: This node shouldn't have a connection to itself
+	{0, 0, 0,  1, 0, 0, 0},
 }
