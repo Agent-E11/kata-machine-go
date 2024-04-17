@@ -1,7 +1,7 @@
 package dfsonbst
 
 import (
-	"github.com/agent-e11/kata-machine-go/tree"
+	"github.com/agent-e11/kata-machine-go"
 )
 
 // Depth First Search on Binary Search Tree
@@ -12,6 +12,6 @@ import (
 //
 // [Depth First Search]: https://en.wikipedia.org/wiki/Depth-first_search
 // [Binary Search Tree]: https://en.wikipedia.org/wiki/Binary_search_tree
-func DFS(head tree.BinaryNode[int], needle int) bool {
+func DFS(head kata.BinaryNode[int], needle int) bool {
 	return false
 }

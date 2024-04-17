@@ -1,7 +1,7 @@
 package binarytree
 
 import (
-	"github.com/agent-e11/kata-machine-go/tree"
+	"github.com/agent-e11/kata-machine-go"
 )
 
 // Breadth First Search on a binary tree
@@ -9,7 +9,7 @@ import (
 // [Breadth First Search]
 //
 // [Breadth First Search]: https://en.wikipedia.org/wiki/Breadth-first_search
-func BFS(head tree.BinaryNode[int], needle int) bool {
+func BFS(head kata.BinaryNode[int], needle int) bool {
 	return false
 }
 
@@ -18,7 +18,7 @@ func BFS(head tree.BinaryNode[int], needle int) bool {
 // [Tree Traversal]
 // 
 // [Tree Traversal]: https://en.wikipedia.org/wiki/Tree_traversal
-func InOrderTraverse(head tree.BinaryNode[int]) []int {
+func InOrderTraverse(head kata.BinaryNode[int]) []int {
 	return []int{}
 }
 
@@ -27,7 +27,7 @@ func InOrderTraverse(head tree.BinaryNode[int]) []int {
 // [Tree Traversal]
 // 
 // [Tree Traversal]: https://en.wikipedia.org/wiki/Tree_traversal
-func PostOrderTraverse(head tree.BinaryNode[int]) []int {
+func PostOrderTraverse(head kata.BinaryNode[int]) []int {
 	return []int{}
 }
 
@@ -36,11 +36,11 @@ func PostOrderTraverse(head tree.BinaryNode[int]) []int {
 // [Tree Traversal]
 // 
 // [Tree Traversal]: https://en.wikipedia.org/wiki/Tree_traversal
-func PreOrderTraverse(head tree.BinaryNode[int]) []int {
+func PreOrderTraverse(head kata.BinaryNode[int]) []int {
 	return []int{}
 }
 
 // Determine if two binary trees are equal, by structure, and by value
-func Compare(a *tree.BinaryNode[int], b *tree.BinaryNode[int]) bool {
+func Compare(a *kata.BinaryNode[int], b *kata.BinaryNode[int]) bool {
 	return false
 }

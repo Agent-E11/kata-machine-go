@@ -1,7 +1,7 @@
 package bfsgraph
 
 import (
-	katagraph "github.com/agent-e11/kata-machine-go/graph"
+	"github.com/agent-e11/kata-machine-go"
 )
 
 // Breadth First Search on a graph (Adjacency List)
@@ -9,7 +9,7 @@ import (
 // [Breadth First Search]
 //
 // [Breadth First Search]: https://en.wikipedia.org/wiki/Breadth-first_search
-func BFSList(graph katagraph.WeightedAdjacencyList, source int, needle int) []int {
+func BFSList(graph kata.WeightedAdjacencyList, source int, needle int) []int {
 	return []int{}
 }
 
@@ -18,6 +18,6 @@ func BFSList(graph katagraph.WeightedAdjacencyList, source int, needle int) []in
 // [Breadth First Search]
 //
 // [Breadth First Search]: https://en.wikipedia.org/wiki/Breadth-first_search
-func BFSMatrix(graph katagraph.WeightedAdjacencyMatrix, source int, needle int) []int {
+func BFSMatrix(graph kata.WeightedAdjacencyMatrix, source int, needle int) []int {
 	return []int{}
 }

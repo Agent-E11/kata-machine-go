@@ -4,13 +4,14 @@ import (
 	"slices"
 	"testing"
 
+	"github.com/agent-e11/kata-machine-go"
 	"github.com/agent-e11/kata-machine-go/graph"
 	"github.com/agent-e11/kata-machine-go/prim"
 )
 
 func TestPrimsList(t *testing.T) {
 	result := prim.PrimList(graph.List1)
-	expect := graph.WeightedAdjacencyList{
+	expect := kata.WeightedAdjacencyList{
         {
             { To: 2, Weight: 1 },
             { To: 1, Weight: 3 },
@@ -41,7 +42,7 @@ func TestPrimsList(t *testing.T) {
 
 	if !slices.EqualFunc(
 		result, expect,
-		slices.Equal[[]graph.GraphEdge, graph.GraphEdge],
+		slices.Equal[[]kata.GraphEdge, kata.GraphEdge],
 	) {
 		t.Fatalf("expected result to be %v, got %v", expect, result)
 	}
