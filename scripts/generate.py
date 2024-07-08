@@ -40,4 +40,3 @@ for file in glob.glob(f"{day_dir}/**/*.go"):
 
     with open(file, "w") as f:
         f.write(content)
-
