@@ -1,3 +1,15 @@
+# Kata Machine (Go)
+
+## What is this?
+
+This repo is a version of
+[ThePrimeagen's kata-machine](https://github.com/ThePrimeagen/kata-machine)
+repo ported to Go. You can use it to go through his
+[Data Structures & Algorithms course](https://frontendmasters.com/courses/algorithms/introduction)
+using Go instead of TypeScript. There are also a few other niceties, like
+Wikipedia links for the descriptions of different data structures and
+algorithms.
+
 ## Supported Algorithms
 - Insertion sort
 - Merge sort
@@ -40,55 +52,47 @@
 
 ## How It Works
 
-Make sure you have [Node.js](https://nodejs.org/en/) and yarn installed: `npm install --global yarn`
+Make sure you have Go and Python installed:
 
-clone the repo and install the dependencies
-
-```bash
-yarn install
+```sh
+go version
+python3 -V
 ```
 
-edit the `ligma.config.js` file
-```javascript
-module.exports = {
-    dsa: [
-        "InsertionSort",
-        "MergeSort",
-        "Queue",
-        "Stack",
-        "QuickSort",
-        "DijkstraList",
-        "PrimsList",
-    ],
-}
+Clone the repo:
+
+```sh
+git clone https://github.com/Agent-E11/kata-machine-go
 ```
 
-create a day of katas, this will use the list in the `ligma.config.js`.
-```bash
-yarn generate
+Create a day of katas:
+
+```sh
+python3 ./scripts/generate.py
 ```
 
-this will progressively create folders named
+This will progressively create folders named like this:
 
 ```
-src/day1
-src/day2
+./day0
+./day1
 ...
 ```
 
-`yarn generate` will also update the `tsconfig.json` and `jest.config` to point
-the latest `day` folder via tspaths.  This allows us to avoid updating anything
-for testing each day.
+You can now edit the Go files in the (for example) `./day0/` folder, and follow
+along with the course.
 
 ### Testing
-```
-yarn test
+
+To test all of your code (e.g. the day0 folder), run:
+
+```sh
+go test -v ./day0/...
 ```
 
-I have yet to create a testing strategy for next sets of algorithms, but we
-will get there when i cross that bridge.
+Or, if you want to test a specific algorithm/data structure (e.g. arraylist):
 
-## Help wanted
-A simple way to specify test, thinking something like `tests.json` and `cat
-test.json 2> /dev/null` to specify the tests to run.  tests.json wouldn't be
-committed.
+```sh
+go test -v ./day0/arraylist
+```
+
