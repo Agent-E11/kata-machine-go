@@ -2,6 +2,9 @@
 
 <!-- TODO:-->
 
+- [ ] Add more tests
+    - [ ] listtest, list.InsertAt ([issue](https://github.com/ThePrimeagen/kata-machine/issues/62))
+    - [ ] Two crystal balls (maybe) ([issue](https://github.com/ThePrimeagen/kata-machine/issues/61))
 - [ ] Rework the README file
 - [ ] Remove unnecessary JavaScript/TypeScript files
 - [ ] Add missing algorithms (If there is an algorithm on an Adjacency List, there should be one for an Adjacency Matrix)
